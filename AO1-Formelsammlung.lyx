@@ -1,0 +1,1882 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1cm
+\topmargin 2cm
+\rightmargin 1cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Optik Formelsammlung
+\end_layout
+
+\begin_layout Section*
+Paraxiale Linsen
+\end_layout
+
+\begin_layout Subsection*
+Brechungsgesetz
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+A & =n\sin i=n'\sin i'\:mit\:i=h\cdot c+u\\
+ & =n(hc+u)=n'(hc+u')
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Brechungsinvariante 
+\begin_inset Formula $A$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Brechzahl 
+\begin_inset Formula $n$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Brechwinkel i
+\end_layout
+
+\begin_layout Standard
+Randstrahlwinkel 
+\begin_inset Formula $u$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Krümmung 
+\begin_inset Formula $c=\frac{1}{r}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Strahlhöhe 
+\begin_inset Formula $h$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Linsenmacherformel
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f'=\frac{nR_{1}R_{2}}{N(n-1)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hilfsgröße 
+\begin_inset Formula $N=d(n-1)+n(R_{2}-R_{1})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Linsendicke 
+\begin_inset Formula $d$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Radius der Fläche 
+\begin_inset Formula $i$
+\end_inset
+
+ 
+\begin_inset Formula $R_{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+F=(n-1)(\frac{1}{R_{1}}-\frac{1}{R_{2}}+\frac{d(n-1)}{nR_{1}R_{2}})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Brechkräfte:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+F_{1}=(n-1)\cdot c_{1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+F_{2}=-(n-1)\cdot c_{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Fall eine Seite plan (
+\begin_inset Formula $R_{1}=\infty$
+\end_inset
+
+):
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f'=-\frac{R_{2}}{n-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Für
+\begin_inset Formula $\:R_{2}=\infty$
+\end_inset
+
+–>
+\begin_inset Formula $\frac{R_{1}}{n-1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Mittendicke Plankonvexlinse 
+\begin_inset Formula $d$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+d=R-\sqrt{R^{2}-(\frac{D}{2})^{2}}+d_{rand}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Radius 
+\begin_inset Formula $R$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Linsendurchmesser 
+\begin_inset Formula $D$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Hauptebenen
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\overline{V_{1}H}=\frac{-R_{1}d}{N}=-d\cdot c_{2}\cdot(\frac{n-1}{n})\cdot f'
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\overline{V_{2}H'}=\frac{-R_{2}d}{N}=-d\cdot c_{1}\cdot(\frac{n-1}{n})\cdot f'
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Scheitelpunkt der Fläche 
+\begin_inset Formula $i\:V_{i}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Objektseitige Hauptebene 
+\begin_inset Formula $H$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Bildseitige Hauptebene 
+\begin_inset Formula $H'$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hilfsgröße 
+\begin_inset Formula $N=d(n-1)+n(R_{2}-R_{1})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Für 
+\begin_inset Formula $R_{1}=\infty$
+\end_inset
+
+und 
+\begin_inset Formula $R_{2}$
+\end_inset
+
+negativ 
+\begin_inset Formula $\overline{S_{1}H}=\frac{d}{n}'\;\overline{S_{2}H'}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Fall Linsensystem (zwei dünnen Linsen):
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\overline{V_{1}H}=e\frac{f'_{ges}}{f'_{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\overline{V_{2}H'}=e\frac{f'_{ges}}{f'_{1}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Abstand zwischen den Linsen 
+\begin_inset Formula $e$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Brennweite
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f'=-\frac{y'}{\tan u}=k\cdot D_{EP}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Durchmesser 
+\begin_inset Formula $D$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Eintrittspupille 
+\begin_inset Formula $EP$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Bildhöhe 
+\begin_inset Formula $y'$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Blendenzahl 
+\begin_inset Formula $k$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Brechende Fläche:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f'=\frac{r}{n'-n}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Flächenradius 
+\begin_inset Formula $r$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f'=\frac{1}{\frac{n'}{s'}-\frac{n}{s}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+s'_{F'}=\frac{1-\frac{d}{n}F_{1}}{F}\quad s{}_{F}=\frac{1-\frac{d}{n}F_{2}}{F}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Objektschnittweite (zu 
+\begin_inset Formula $V_{i}$
+\end_inset
+
+) 
+\begin_inset Formula $s$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Bildschnittweite (zu 
+\begin_inset Formula $V_{i}$
+\end_inset
+
+) 
+\begin_inset Formula $s'$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Zweilinser:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f'=\frac{f'_{1}f'_{2}}{f'_{1}+f'_{2}-e}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Abbildungsgleichung
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+F & =\frac{1}{f'}=\frac{1}{a'}-\frac{1}{a}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Brechzahl 
+\begin_inset Formula $F$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Brennweite 
+\begin_inset Formula $f'$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Objektweite (zu 
+\begin_inset Formula $H$
+\end_inset
+
+) 
+\begin_inset Formula $a$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Bildweite (zu 
+\begin_inset Formula $H'$
+\end_inset
+
+) 
+\begin_inset Formula $a'$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Abbildungsmaßstab 
+\begin_inset Formula $\beta'$
+\end_inset
+
+ (Transversale (laterale) Vergrößerung)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\beta'=\frac{a'}{a}=\frac{s'}{s}=\frac{y'}{y}=\frac{D_{EP}}{D_{ABL}}=\frac{-f'_{ok}}{f'_{obj}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Objekthöhe 
+\begin_inset Formula $y$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Bildhöhe 
+\begin_inset Formula $y'$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Durchmesser 
+\begin_inset Formula $D$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Eintrittspupille 
+\begin_inset Formula $EP$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Aperturblende 
+\begin_inset Formula $ABL$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Okular 
+\begin_inset Formula $ok$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Objektiv 
+\begin_inset Formula $obj$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Bei brechender Fläche:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\beta'=\frac{ns'}{n's}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Winkelvergrößerung (afokal) 
+\begin_inset Formula $\Gamma$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Gamma=\frac{\Theta_{out}}{\Theta_{in}}=\frac{f'_{1}}{f'_{2}}=\frac{h'}{h}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Halber Öffnungswinkel 
+\begin_inset Formula $\Theta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Gesichtsfeldwinkel 
+\begin_inset Formula $\Theta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\tan\Theta=\frac{D_{AL}}{2f'}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Austrittsluke 
+\begin_inset Formula $AL$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Blendenzahl 
+\begin_inset Formula $k$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f/\#=k=\frac{f'_{ges}}{D_{EP}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+k_{eff}=(1-\beta')\cdot k
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Austrittspupille
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{1}{f'}=\frac{1}{a'_{XP}}-\frac{1}{a_{ABL}}\rightarrow a'_{XP}=(\frac{1}{f'}+\frac{1}{a_{ABL}})^{-1}
+\]
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+D_{XP}=D_{ABL}|\frac{a'_{XP}}{a_{ABL}}|
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Randstrahlwinkel 
+\begin_inset Formula $\sigma$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\tan\sigma=\frac{D_{EP}}{2|a_{EP}|}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Abstand Objekt - Eintrittspupille 
+\begin_inset Formula $a_{EP}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Numerische Apertur NA
+\end_layout
+
+\begin_layout Subsubsection*
+Objektseitig
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+NA=n\cdot\sin u
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ranstrahlwinkel vor der ersten Fläche 
+\begin_inset Formula $u$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Bildseitig
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+NA=n'\cdot\sin u'=\frac{1}{2k_{eff}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Randstrahlwinkel hinter der letzten Fläche 
+\begin_inset Formula $u'$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Effektive Blendenzahl 
+\begin_inset Formula $k_{eff}$
+\end_inset
+
+ für 
+\begin_inset Formula $s\rightarrow-\infty\;k_{eff}=k$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Lagrangesche Invariante 
+\begin_inset Formula $\mathcal{H}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mathcal{H}=n(\bar{y}u-y\bar{u})=n(\bar{y}\sin\Theta-y\sin\bar{\Theta})=const
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Abbe-Zahl 
+\begin_inset Formula $\nu$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nu=\frac{n_{d}-1}{n_{F}-n_{C}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Wellenlägngen 
+\begin_inset Formula $F,d,C=486,588,656\:nm$
+\end_inset
+
+ (rot, grün, blau) 
+\end_layout
+
+\begin_layout Subsection*
+Excentrizität 
+\begin_inset Formula $E$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+An ABL 
+\begin_inset Formula $E=0$
+\end_inset
+
+; 
+\begin_inset Formula $d-Abstand\:i$
+\end_inset
+
+ –> 
+\begin_inset Formula $i+1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mathcal{H}\cdot E=\frac{\bar{h}}{h}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\bar{A}=\frac{\mathcal{H}}{h}\cdot(A\cdot h\cdot E-1)=n\cdot\bar{i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+E_{i+1}-E_{i}=\frac{-d}{n\cdot h_{i}\cdot h_{i+1}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Kontrast 
+\begin_inset Formula $M$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+M=\frac{I_{max}-I_{min}}{I_{max}+I_{min}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Intensität 
+\begin_inset Formula $I$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Aberrationen
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 0.51cm
+\end_inset
+
+Seidelkoeffizient 
+\begin_inset Formula $S_{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Seidelkoeffizient der chromatischen Aberration 
+\begin_inset Formula $C_{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Wellenkoeffizeint 
+\begin_inset Formula $_{i}w_{jk}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Lage des Strahls in der Austrittspupille 
+\begin_inset Formula $x$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Lage des Strahls in der Austrittspupille 
+\begin_inset Formula $y$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Radius 
+\begin_inset Formula $r=\sqrt{x^{2}+y^{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Brechungsinvariante des Randstrahls 
+\begin_inset Formula $A$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Brechungsinvariante des Hauptstrahls 
+\begin_inset Formula $\bar{A}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Objektgröße 
+\begin_inset Formula $\eta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\delta n=n_{F}-n_{C}$
+\end_inset
+
+ 
+\begin_inset Formula $\;\delta(\frac{\delta n}{n})=\frac{\delta n'}{n'}-\frac{\delta n}{n}$
+\end_inset
+
+ 
+\begin_inset Formula $\;\delta(\frac{u}{n})=\frac{u'}{n'}-\frac{u}{n}$
+\end_inset
+
+ 
+\begin_inset Formula $\;\delta(\frac{1}{n})=\frac{1}{n'}-\frac{1}{n}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Defokus
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\delta\eta'=-\frac{2\cdot_{0}w_{20}\cdot y_{rel}}{NA}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Sphärische Aberration (SPHA)
+\end_layout
+
+\begin_layout Standard
+Kreisförmiger Spot - Sphärische Flächen erzeugen keinen eindeutigen Fokus
+\end_layout
+
+\begin_layout Subsubsection*
+Korrektur:
+\end_layout
+
+\begin_layout Itemize
+Für Plankonvexlinse: Planseite zur Bildebene orientieren.
+\end_layout
+
+\begin_layout Itemize
+Asphären verwenden
+\end_layout
+
+\begin_layout Itemize
+Abblenden (Bei erhöhung um eine Blendenstufe reduziert sich die sphärische
+ Aberration um den Faktor 
+\begin_inset Formula $\sqrt{2}^{3}$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+Linsenbiegen
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+S_{1}=-A^{2}\cdot h\cdot\delta(\frac{u}{n})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+_{0}w_{40}=\frac{1}{8}S_{1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Wellefrontaberrationen
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+W_{SPHA}=\frac{1}{8}\cdot S_{1}\cdot(x^{2}+y^{2})^{2}=\frac{1}{8}\cdot S_{1}\cdot r^{4}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Queraberration:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\delta\eta'=-\frac{4\cdot_{0}w_{40}\cdot y_{rel}^{3}}{NA}=\frac{S_{1}}{2\cdot n'\cdot u'}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Minimale Sphärische Aberration durch Linsenbiegen:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\gamma_{SA}=\frac{R_{2}+R_{1}}{R_{2}-R_{1}}=\frac{-2(n^{2}-1)(s'+s)}{(n+2)(s'-s)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Für 
+\begin_inset Formula $s=-\infty$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+R_{1}=R_{2}\frac{-2(n^{2}-1)-n-2}{-2(n^{2}-1)+n+2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Koma (COMA)
+\end_layout
+
+\begin_layout Standard
+Kometenartiger Spot - Schiefes Bündel (AST) + kein eindeutiger Fokus (SPH)
+\end_layout
+
+\begin_layout Subsubsection*
+Korrektur:
+\end_layout
+
+\begin_layout Itemize
+Abblenden
+\end_layout
+
+\begin_layout Itemize
+Positionierung der Blende: Aufbau möglichst symmetrisch zur Aperturblende
+\end_layout
+
+\begin_layout Itemize
+Aplanat mit Bedingung 
+\begin_inset Formula $s=\frac{n+n'}{n}r;\:s'=\frac{n+n'}{n'}r$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+S_{2}=-A\cdot\bar{A}\cdot h\cdot\delta(\frac{u}{n})=\frac{\bar{A}}{A}\cdot S_{1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+_{1}w_{31}=\frac{1}{2}\cdot S_{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Wellefrontaberrationen
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+W_{COMA}=\frac{1}{2}\cdot S_{2}\cdot y\cdot(x^{2}+y^{2})\cdot\eta
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Queraberration:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\delta\eta'=-\frac{3\cdot_{1}w_{31}\cdot\eta_{rel}\cdot y_{rel}}{NA}=\frac{3\cdot S_{2}}{2\cdot n'\cdot u'}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Astigmatismus (ASTI)
+\end_layout
+
+\begin_layout Standard
+Stäbchenförmiger Spot - Schiefes Bündel trifft nur auf Teillinse: Brechkraft
+ in Sagittal- und Tangentialebene unterschiedlich.
+ (Tangential -> Ebene des Hauptstrahls und der optischen Achse und y-Richung
+ | Saggital -> Senkrecht zu Tangentialebene, ändert sich mit Hauptstrahl)
+\end_layout
+
+\begin_layout Subsubsection*
+Korrektur:
+\end_layout
+
+\begin_layout Itemize
+Sagittale- und Tangentiale Bildschale = Petzvalschale
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+Anastigmat
+\begin_inset Quotes erd
+\end_inset
+
+ z.B.
+ Cooke Triplet
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+S_{3}=-\bar{A}^{2}\cdot h\cdot\delta(\frac{u}{n})=(\frac{\bar{A}}{A})²\cdot S_{1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+_{2}w_{22}=\frac{1}{2}\cdot S_{3}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Wellefrontaberrationen
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+W_{ASTI}=\frac{1}{2}\cdot S_{3}\cdot y^{2}\cdot\eta^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Queraberration:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\delta\eta'=-\frac{2\cdot_{2}w_{22}\cdot\eta_{rel}^{2}\cdot y_{rel}}{NA}=\frac{3\cdot S_{3}+S_{4}}{2\cdot n'\cdot u'}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Bildbeldwölbung (FCUR)
+\end_layout
+
+\begin_layout Standard
+Bildschale auf flachem Sensor.
+ Bildmitte oder Bildrand ist unscharf.
+ Bildschale = Petzvalschale
+\end_layout
+
+\begin_layout Subsubsection*
+Korrektur:
+\end_layout
+
+\begin_layout Itemize
+Abblenden
+\end_layout
+
+\begin_layout Itemize
+Bildfeldebnung - Bedingung: 
+\begin_inset Formula $f'_{1}=f'_{ges}(1-.\frac{n2}{n1});\:f'_{2}=f'_{ges}(1-\frac{n_{1}}{n_{2}})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Gekrümmter Sensor
+\end_layout
+
+\begin_layout Itemize
+Field flattener Systeme
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+S_{4}=-\mathcal{H}^{2}\cdot c\cdot\delta(\frac{1}{n})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+_{2}w_{20}=\frac{1}{4}\cdot(S_{4})\:Petzval
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+_{2}w_{20}=\frac{1}{4}\cdot(S_{3}+S_{4})\:Sagittal
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Wellenfrontaberrationen
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+W_{FCUR}=\frac{1}{4}\cdot(S_{3}+S_{4})\cdot(x^{2}+y^{2})\cdot\eta^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Queraberration:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\delta\eta'=-\frac{2\cdot_{2}w_{20}\cdot\eta_{rel}^{2}\cdot y_{rel}}{NA}\:Petzval
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Verzeichnung (DIST)
+\end_layout
+
+\begin_layout Standard
+Änderung des Abbildungsmaßstabs abhängig vom Feldwinkel durch Koma und sphärisch
+e Aberration des Hauptstrahls.
+ Tonnenförmig oder Kissenförmig.
+ Vertauschen von Bild und Objektebene dreht Verzeichung um.
+ Vorderblende Plus (Minus) Linse tonnen- (kissen-) förmige Verzeichnung.
+ Bei Hinterblende umgekehrt.
+ Ein symmetrisch zur Aperturblende aufgebautes System mit 
+\begin_inset Formula $\beta'=-1$
+\end_inset
+
+ ist verzeichnungsfrei.
+\end_layout
+
+\begin_layout Subsubsection*
+Korrektur:
+\end_layout
+
+\begin_layout Itemize
+Blendenposition ändern
+\end_layout
+
+\begin_layout Itemize
+Nach digitalisierung korrigieren
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+S_{5}=\frac{\bar{A}}{A}\cdot(S_{3}+S_{4})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+_{3}w_{11}=\frac{1}{2}\cdot S_{5}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Wellenfrontaberrationen
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+W_{DIST}=\frac{1}{2}\cdot S_{5}\cdot y\cdot\eta^{3}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Queraberration:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\delta\eta'=-\frac{_{3}w_{11}\cdot\eta_{rel}^{3}}{NA}=\frac{S_{5}}{2\cdot n'\cdot u'}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Farblängsfehler (AXCL)
+\end_layout
+
+\begin_layout Standard
+Brechzahl hängt von der Wellenlänge ab (Dispersion): Fokusposition ist farbabhän
+gig.
+\end_layout
+
+\begin_layout Subsubsection*
+Korrektur:
+\end_layout
+
+\begin_layout Itemize
+Achromasiebedingung 
+\begin_inset Formula $f'_{1}=f'_{ges}(1-\frac{\nu_{2}}{\nu_{1}});\:f'_{2}=f'_{ges}(1-\frac{\nu_{1}}{\nu_{2}})$
+\end_inset
+
+ (nur bei Abstand der Linse e = 0)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+C_{1}=A\cdot h\cdot\delta(\frac{\delta n}{n})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Wellefrontaberration:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+W_{AXCL}=\frac{1}{2}\cdot C_{1}\cdot\delta n_{F\rightarrow c}\cdot(x^{2}+y^{2})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Queraberration:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\delta\eta'=-\frac{2\cdot r\cdot C_{1}}{NA}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Farbquerfehler (LACL)
+\end_layout
+
+\begin_layout Standard
+Brechzahl hängt von der Wellenlänge ab (Dispersion): Objektpunkt wird in
+ der Bildebene zu farblich versetzten Punkten.
+\end_layout
+
+\begin_layout Subsubsection*
+Korrektur:
+\end_layout
+
+\begin_layout Itemize
+Achromasiebedingung siehe (AXCL)
+\end_layout
+
+\begin_layout Itemize
+Digital
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+C_{2}=\bar{A}\cdot h\cdot\delta(\frac{\delta n}{n})=\frac{\bar{A}}{A}\cdot C_{1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Wellefrontaberration:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+W_{LACL}=C_{2}\cdot\delta n_{F\rightarrow c}\cdot y
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Aberrationen bei Verschieben der Blende
+\end_layout
+
+\begin_layout Subsubsection*
+Koma
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+S_{2}^{*}=S_{2}+[S_{1}\cdot\mathcal{H}\cdot\Delta E];\:\Delta S_{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Astigmatismus
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+S_{3}^{*}=S_{3}+[2\cdot\mathcal{H}\cdot\Delta E\cdot S_{2}+(\mathcal{H}\cdot\Delta E)^{2}\cdot S_{1}];\:\Delta S_{3}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Verzeichnung
+\end_layout
+
+\begin_layout LyX-Code
+\begin_inset Formula 
+\[
+S_{5}^{*}=S_{5}+[\mathcal{H}\cdot\Delta E\cdot(3\cdot S_{3}+S_{4})+3\cdot(\mathcal{H}\cdot\Delta E)^{2}\cdot S_{2}+(\mathcal{H}\cdot\Delta E)^{3}\cdot S_{1}];\:\Delta S_{5}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Farbquerfehler
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+C_{2}^{*}=C_{2}+[\mathcal{H}\cdot\Delta E\}\cdot C_{1}];\:\Delta C_{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Wellenfrontaberrationen als Summe:
+\end_layout
+
+\begin_layout LyX-Code
+\align center
+\begin_inset Formula 
+\begin{align*}
+W & =_{0}w_{20}\cdot r^{2\;}Defocus\\
+ & +_{1}w_{11}\cdot\eta\cdot r\cdot cosΦ\;Change\:in\:Scale\\
+ & +_{2}w_{00}\cdot\eta^{2}\\
+ & +_{0}w_{40}\cdot\eta^{4}\;Spherical\:aberration\\
+ & +_{1}w_{31}\cdot\eta\cdot r^{3}\cdot cosΦ\;Coma\\
+ & +_{2}w_{22}\cdot\eta^{2}\cdot r^{2}\cdot cos^{2}Φ\;Astigmatism\\
+ & +_{2}w_{20}\cdot\eta^{2}\cdot r^{2}\;Fieldcurvature\\
+ & +_{3}w_{11}\cdot\eta^{3}\cdot r\cdot cosΦ\;Distortion\\
+ & +_{4}w_{00}\cdot\eta^{4}\\
+ & +_{0}w_{60}\cdot r^{6}\;Sphericalaberration\\
+ & +etc.
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Spezialfälle:
+\end_layout
+
+\begin_layout Subsubsection*
+Afokaler Einlinser:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+d=\frac{2\cdot R\cdot n}{n-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f'=\frac{R}{n-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+a=\frac{-2\cdot n}{(n-1)\cdot(2\cdot n-1)}\cdot R
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Kugellinse:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f'=\frac{n\cdot R}{2\cdot(n-1)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\overline{V_{1}P}=-\overline{V_{2}P'}=R
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+s'=\frac{1}{n-1}\cdot\frac{R_{2}\cdot[n\cdot R_{1}-(n-1)\cdot d]}{(n-1)\cdot d+n\cdot(R_{2}-R_{1})}=f'-R_{1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
