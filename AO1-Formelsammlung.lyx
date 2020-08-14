@@ -901,6 +901,17 @@ Lagrangesche Invariante
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mathcal{\mathcal{H}}_{blende}=n\bar{u}y
+\]
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection*
 Abbe-Zahl 
 \begin_inset Formula $\nu$
