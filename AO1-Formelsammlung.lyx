@@ -394,7 +394,7 @@ Fall Linsensystem (zwei dünnen Linsen):
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\overline{V_{2}H'}=e\frac{f'_{ges}}{f'_{1}}
+\overline{V_{2}H'}=-e\frac{f'_{ges}}{f'_{1}}
 \]
 
 \end_inset
