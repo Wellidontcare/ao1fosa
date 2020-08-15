@@ -1859,9 +1859,25 @@ Kugellinse:
 \begin_layout Standard
 \begin_inset Formula 
 \[
-f'=\frac{n\cdot R}{2\cdot(n-1)}
+f'=\frac{n\cdot R}{2\cdot(n-1)}=\frac{R}{2}\cdot\frac{n'}{n(n'-n)}\;(Paraxial)
 \]
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Brechzahl Linse 
+\begin_inset Formula $n'$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Brechzahl nicht Linse 
+\begin_inset Formula $n$
 \end_inset
 
 
