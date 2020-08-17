@@ -1264,6 +1264,49 @@ R_{1}=R_{2}\frac{-2(n^{2}-1)-n-2}{-2(n^{2}-1)+n+2}
 
 \end_layout
 
+\begin_layout Subsubsection*
+Fall dünne Linse am STOP
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+S_{1}=\frac{h^{4}F^{3}}{4}{\frac{n^{2}}{(n-1)^{2}}+\frac{n+2}{n(n-1)^{2}}(B+\frac{2(n^{2}-1)C}{n+2})^{2}-\frac{nCn+2^{2}}{n+2}})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Brechzahl 
+\begin_inset Formula $F$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Shapefactor 
+\begin_inset Formula $B=\frac{c_{1}+c_{2}}{c_{1}-c_{2}}$
+\end_inset
+
+mit 
+\begin_inset Formula $c=\frac{1}{r}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Conjugatefactor 
+\begin_inset Formula $C=\frac{u_{1}+u_{2}'}{u_{1}-u_{2}'}=\frac{\beta'+1}{\beta'-1}$
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection*
 Koma (COMA)
 \end_layout
@@ -1337,6 +1380,21 @@ Queraberration:
 \begin_inset Formula 
 \[
 \delta\eta'=-\frac{3\cdot_{1}w_{31}\cdot\eta_{rel}\cdot y_{rel}}{NA}=(-)\frac{3\cdot S_{2}}{2\cdot n'\cdot u'}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Fall dünne Linse am Stop
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+S_{2}=-\frac{h^{2}F^{2}\mathcal{H}}{2}{\frac{(n+1)B}{n(n-1)}+\frac{(2n+1)C}{n}}
 \]
 
 \end_inset
@@ -1420,6 +1478,21 @@ Queraberration:
 \begin_inset Formula 
 \[
 \delta\eta'=-\frac{2\cdot_{2}w_{22}\cdot\eta_{rel}^{2}\cdot y_{rel}}{NA}=(-)\frac{3\cdot S_{3}+S_{4}}{2\cdot n'\cdot u'}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Fall dünne Linse am STOP
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+S_{3}=\mathcal{H}^{2}F
 \]
 
 \end_inset
@@ -1531,6 +1604,21 @@ Queraberration:
 
 \end_layout
 
+\begin_layout Subsubsection*
+Fall dünne Linse am STOP:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+S_{4}=\mathcal{H}^{2}\frac{F}{n}
+\]
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection*
 Verzeichnung (DIST)
 \end_layout
@@ -1613,6 +1701,21 @@ Queraberration:
 
 \end_layout
 
+\begin_layout Subsubsection*
+Fall dünne Linse am STOP:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+S_{5}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
@@ -1682,6 +1785,21 @@ Queraberration:
 
 \end_layout
 
+\begin_layout Subsubsection*
+Fall dünne Linse am STOP:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+C_{1}=h^{2}\frac{F}{\nu_{abbe}}
+\]
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection*
 Farbquerfehler (LACL)
 \end_layout
@@ -1721,7 +1839,22 @@ Wellefrontaberration:
 \begin_layout Standard
 \begin_inset Formula 
 \[
-W_{LACL}=C_{2}\cdot\delta n_{F\rightarrow c}\cdot y
+W_{LACL}=C_{2}\cdot\delta n_{F\rightarrow c}\cdot y_{rel}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Fall dünne Linse am STOP:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+C_{2}=0
 \]
 
 \end_inset
