@@ -1744,6 +1744,14 @@ Achromasiebedingung
  (nur bei Abstand der Linse e = 0)
 \end_layout
 
+\begin_layout Itemize
+Dünne Linse: 
+\begin_inset Formula $\frac{\Delta f'}{f'}=-\frac{1}{\nu_{abbe}}$
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 \begin_inset Formula 
 \[
